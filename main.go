@@ -111,7 +111,7 @@ func main() {
 
 	args := os.Args
 
-	if args[1] == "-h" || args[1] == "--help"{
+	if args[1] == "-h" || args[1] == "--help" {
 		fmt.Println(helpMessage)
 		os.Exit(0)
 	}
