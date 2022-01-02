@@ -20,7 +20,9 @@ var (
 	n         = 1
 )
 
-var helpMessage = `Usage:
+var helpMessage = `Go round and round...
+
+Usage:
 -u localPort:remoteAddress:remotePort				UDP proxy
 -t localPort:remoteAddress:remotePort				TCP proxy
 -l 0.0.0.0											Change local address binding (default: 0.0.0.0)
